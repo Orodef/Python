@@ -34,13 +34,3 @@ def yaAparecio (letra, usados):
             return True
         indice += 1
     return False
-
-#Reto 2
-
-def podarMatriz(matriz):
-
-    matriz = matriz[1:]
-    matriz = matriz[:len(matriz)-1]
-    matriz = matriz[0][1:]
-    matriz = matriz[:(len(matriz))-1]
-    return matriz
